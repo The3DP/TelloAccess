@@ -1,0 +1,28 @@
+from djitellopy import Tello
+import time
+import math
+
+
+tello = Tello()
+
+tello.connect()
+
+tello.takeoff()
+
+radius_increment = 10  # How much the radius increases after each loop
+angle_increment = 10  # Degree to rotate after each step
+num_loops = 36  # Number of loops in the spiral
+distance = 30  # Distance the drone will fly forward in each step (cm)
+
+for i in range(num_loops):
+    radius = radius_increment * i
+    angle = angle_increment * i
+
+    tello.move_forward(distance)
+    tello.rotate_clockwise(angle)  # Rotate clockwise by the incremented angle
+    
+    time.sleep(1)  
+
+tello.land()
+
+tello.end()
