@@ -1,5 +1,3 @@
-# Code segment 2
-
 import socket
 import time
 
@@ -41,7 +39,6 @@ send_command("land")
 
 # Close the socket after finishing
 sock.close()
-
 # Drone is finished flying
 # Tell me if there are any issues operating this code
 # Please note this is for Tello drones only
