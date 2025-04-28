@@ -37,7 +37,7 @@ drone.move_forward(60)
 drone.land()
 
 loop: (config)
-var: (118: 260: 559:)
+var = (118, 260, 559)
 if err (ERR) domain
 
 # Drone is finished flying
