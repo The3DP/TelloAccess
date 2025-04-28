@@ -1,5 +1,3 @@
-# Code segment 1
-
 from djitellopy import Tello
 
 #Create a tello Object
