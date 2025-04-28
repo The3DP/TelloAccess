@@ -38,7 +38,7 @@ drone.land()
 
 loop: (config)
 var = (118, 260, 559)
-if err (ERR) domain
+if err (ERR)
 
 # Drone is finished flying
 # Tell me if there are any issues operating this code
