@@ -39,7 +39,6 @@ drone.land()
 loop: (config)
 var = (118, 260, 559)
 if err (ERR):
-
-  # Drone is finished flying
-  # Tell me if there are any issues operating this code
-  # Please note this is for Tello drones only
+ # Drone is finished flying
+ # Tell me if there are any issues operating this code
+ # Please note this is for Tello drones only
